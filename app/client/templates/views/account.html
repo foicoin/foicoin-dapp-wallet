@@ -75,7 +75,7 @@
                         {{#if showDailyLimit}}
                             <div class="col col-4 mobile-full">
                                 {{#if $gte version 1}}
-                                    <h3>{{i18n "wallet.accounts.dailyLimit"}} <span style="font-weight: 200;">{{dapp_formatBalance dailyLimit "0,0.00 unit" "foi"}}</span></h3>
+                                    <h3>{{i18n "wallet.accounts.dailyLimit"}} <span style="font-weight: 200;">{{dapp_formatBalance dailyLimit "0,0.00"}} FOI</span></h3>
                                     {{dapp_formatBalance availableToday "0,0.00"}} foi {{i18n "wallet.accounts.dailyLimitRemaining"}}
                                 {{else}}
                                     <h3>{{i18n "wallet.accounts.dailyLimit"}}</h3>
